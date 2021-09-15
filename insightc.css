@@ -9,7 +9,7 @@ h1{
     }
 p{
     text-align: center;
-    font-size: 8rem;
+    font-size: 220px;
 }
 #sell{
     color: hsl(352, 90.7%, 62%);
@@ -64,7 +64,7 @@ p{
 
     .contentbox {
         width: 500px;
-        height: 475px;
+        height: 500px;
         
     }
 
@@ -79,8 +79,8 @@ p{
     
     .contentbox{
         width: 240px;
-        height: 550px;
-        font-size: 40%;
+        height: 500px;
+        font-size: 39.1%;
         padding-top: 30px;
         text-align: center;
     }
