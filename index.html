@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyOrSellCrypto</title>
+    <link rel="stylesheet" href="insightc.css">
+    <meta http-equiv="refresh" content="">
+    <meta name="viewport" content="width=device-width">
+
+</head>
+
+<body>
+
+    <h1>Currency</h1>
+    <p id="buy">Buy<b id="or">/</b><b id="sell">Sell</b></p>
+    <div class="popup">
+        <div class="contentbox">Hello! Let us explain what’s the idea of our project. The idea is to unite crypto
+            enthusiasts all over the planet and help them make money with cryptocurrency every day! As you know, the
+            more amounts of money work in one direction, the more it causes price changing, so if many people buy a
+            specific cryptocurrency, its price rises, on the contrary, they sell, the price falls. For this, we created
+            this project. We want people could raise the price of a specific cryptocurrency, and then sell it at a
+            higher price. How will it look like? Every day we will analyze the cryptocurrency market and based on the
+            analysis choose a specific cryptocurrency which according to our “buy” signal on this website, people will
+            be buying in large quantities, thereby increasing its price and then according to our “sell” signal, they
+            will be selling it to fix the profit. For this to become possible, our goal is to let as many people as
+            possible know about this site. This is what we want to ask you to help us so that we could help you. Spread
+            information about us through as many people as possible, since as we wrote earlier, the more of us, the more
+            every one of us can earn. This project is 100% free all you need to do is subscribe to our Twitter and wait
+            for an announcement about the start. Also, if you do not have an account, we recommend registering on the
+            Binance crypto exchange. Since this is the best exchange for trading cryptocurrency at the moment. Using the
+            D3VAW04E promo code while registration you will receive a 20% discount on the commission per transaction,
+            and it will help our project in development as well.
+
+            <a href="https://twitter.com/BuyOrSellCrypto" target="_blank" id="twitter">Subscribe</a>
+
+
+            <div class="close">X</div>
+        </div>
+    </div>
+    <script>
+        const popup = document.querySelector('.popup');
+        const close = document.querySelector('.close');
+
+        window.onload = function () {
+            setTimeout(function () {
+                popup.style.display = "block";
+            }, 2000)
+        }
+
+        close.addEventListener('click', () => {
+            popup.style.display = "none";
+        })
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

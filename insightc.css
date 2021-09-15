@@ -1,0 +1,91 @@
+html{
+    font-size: 30px;
+    background-color:hsl(210, 15.4%, 10.2%);
+}
+
+h1{
+    color: hsl(48, 91.9%, 56.3%);
+    text-align: center;
+    }
+p{
+    text-align: center;
+    font-size: 8rem;
+}
+#sell{
+    color: hsl(352, 90.7%, 62%);
+}
+#buy{
+ color: hsl(157, 87.1%, 42.5%);
+}
+#or{
+    color:hsl(0, 0%, 90%);
+}
+
+
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.contentbox {
+    position: relative;
+    width: 780px;
+    height: 300px;
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(210, 15.4%, 10.2%);
+    display: flex;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 30px;
+    font-size: 55%;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #74638f;
+
+}
+#twitter {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+
+}
+
+@media (max-width: 860px) {
+
+    .contentbox {
+        width: 500px;
+        height: 475px;
+        
+    }
+
+    
+}
+
+
+    
+
+@media (max-width: 767px)
+{
+    
+    .contentbox{
+        width: 240px;
+        height: 550px;
+        font-size: 40%;
+        padding-top: 30px;
+        text-align: center;
+    }
+    p{
+        font-size: 2.9rem;
+    }
+}
+ 
